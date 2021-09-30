@@ -6,6 +6,8 @@
 //  Copyright (c) 2015 Alexander Ney. All rights reserved.
 //
 
+#if canImport(Darwin)
+
 import Foundation
 
 extension Bundle {
@@ -18,3 +20,5 @@ extension Bundle {
         }
     }
 }
+
+#endif
