@@ -7,7 +7,6 @@
 //
 
 import Foundation
-import Darwin
 
 extension Version: ExpressibleByIntegerLiteral {
     public init(integerLiteral value: IntegerLiteralType) {
